@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+class Emp{
+	String[] eid;
+	String[] ename;
+}
+
+class Salary extends Emp{
+	String[] Designation;
+	String[] montSal;
+}
+
+Salary(int j){
+	ename = new String[j];
+	eid=new String[j];
+	designation = new String[j];
+	montSal=new double[j];
+}
+
+void display(int j){
+	System.out.println("-----------------");
+	System.out.println("Details of emp with sal>20000");
+	System.out.format("%-15s %-15s %-25s %-10s %n","employee id","employee name","employee designation","monthly salary");
+
+	S
+}
+
+
+public static void main(String [] args){
+	Scanner jaimin = new Scanner (System in);
+	int length = args length;
+	Salary obj = new Salary(length);
+	if(length==0){
+		System.out.println("please enter emp id");
+	}
+	
+	for (int i=0; i<length;++i){
+		obj.eid[i]=args[i];
+		System.out.println("enter details of \" + args[i] + "\employee id");
+		System.out.println("name of emp: ");
+		obj ename[I]=jaimin next();
+
+		System.out.println("Designation of emp: ");
+		obj Designation[I]=jaimin next();
+
+		System.out.println("salary of emp: ");
+		obj montSal[I]=jaimin next();
+
+	}
+	obj.
+}
